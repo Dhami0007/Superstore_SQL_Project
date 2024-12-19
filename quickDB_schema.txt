@@ -35,7 +35,7 @@ CREATE TABLE `Sales` (
     `product_id` VARCHAR(255)  NOT NULL ,
     `sales` INT  NOT NULL ,
     PRIMARY KEY (
-        `order_id`
+        `order_id`,`product_id`
     )
 );
 
